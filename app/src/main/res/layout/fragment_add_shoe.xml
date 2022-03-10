@@ -94,7 +94,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/indent_x1"
-                android:background="@color/loginBackgroundColor"
+                android:background="#D62E2E"
                 android:fontFamily="@font/roboto_medium"
                 android:onClick="@{() -> viewModel.saveData(shoe)}"
                 android:text="@string/add_shoe_button"
